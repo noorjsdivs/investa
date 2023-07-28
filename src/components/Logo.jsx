@@ -6,7 +6,7 @@ const Logo = ({ className, props }) => {
     <Link href={"/"}>
       <h2
         className={clsx(
-          "text-3xl font-bold text-gray-900 hover:text-gray-600 duration-300",
+          "text-3xl font-bold text-gray-600 hover:text-gray-900 duration-300",
           className
         )}
         {...props}
