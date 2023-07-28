@@ -12,7 +12,7 @@ const Reviews = () => {
     >
       <Container>
         <Title
-          title="Everyone is changing their life with Pocket."
+          title="Everyone is changing their life with Investa."
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         />

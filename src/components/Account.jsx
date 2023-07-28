@@ -18,7 +18,7 @@ const Account = () => {
           />
           <p className="mt-2 text-lg text-gray-600">
             With typical market returns, you have to start young to secure your
-            future. With Pocket, it is never too late to build your nest egg.
+            future. With Investa, it is never too late to build your nest egg.
           </p>
         </div>
         <ul

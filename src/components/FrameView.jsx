@@ -325,7 +325,7 @@ export const features = [
   {
     name: "Invite friends for better returns",
     description:
-      "For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it is 10 seconds if you invite an insider.",
+      "For every friend you invite to Investa, you get insider notifications 5 seconds sooner. And it is 10 seconds if you invite an insider.",
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },

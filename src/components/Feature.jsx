@@ -17,9 +17,9 @@ const Feature = () => {
             className="text-white text-2xl"
           />
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
+            Investa was built for investors like you who play by their own rules
             and are not going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
+            dreams. If other investing tools are afraid to build it, Investa has
             it.
           </p>
         </div>
