@@ -160,7 +160,7 @@ function InviteScreen({ custom, animated = false }) {
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white">
+          <div className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white">
             Invite person
           </div>
         </div>
@@ -253,7 +253,7 @@ function StocksScreen({ custom, animated = false }) {
                   className={clsx(
                     "text-xs leading-5",
                     stock.change.startsWith("+")
-                      ? "text-cyan-500"
+                      ? "text-blue-600"
                       : "text-gray-500"
                   )}
                 >
@@ -290,7 +290,7 @@ function InvestScreen({ custom, animated = false }) {
                     <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6">
                       <path
                         d="M17 15V7H9M17 7 7 17"
-                        stroke="#06B6D4"
+                        stroke="#2563eb"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -311,7 +311,7 @@ function InvestScreen({ custom, animated = false }) {
                 </div>
               </div>
             ))}
-            <div className="rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white">
+            <div className="rounded-lg bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white">
               Buy shares
             </div>
           </div>
