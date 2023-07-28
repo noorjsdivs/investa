@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import React from "react";
 import Container from "./Container";
 import Title from "./Title";
 import { accountData } from "@/constants";
@@ -28,11 +28,15 @@ const Account = () => {
           {accountData.map((item) => (
             <li
               key={item.name}
-              className="rounded-2xl border border-gray-200 p-8"
+              className="rounded-2xl border border-gray-200 hover:border-gray-300 p-8 group hover:bg-gray-100 duration-300 cursor-pointer"
             >
               <item.icon className="h-8 w-8" />
-              <h3 className="mt-6 font-semibold text-gray-900">{item.name}</h3>
-              <p className="mt-2 text-gray-700">{item.description}</p>
+              <h3 className="mt-6 font-semibold text-gray-900 group-hover:text-black duration-300">
+                {item.name}
+              </h3>
+              <p className="mt-2 text-gray-700 group-hover:text-black duration-300">
+                {item.description}
+              </p>
             </li>
           ))}
         </ul>
